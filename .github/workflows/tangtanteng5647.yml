@@ -3,7 +3,7 @@ name: tangtanteng5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '35 1/6 * * *'
+    - cron: '47 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,18 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: tangtanteng5647
         env:
-          nzy1028: ${{ secrets.nzy1028 }}
+          cbyx44: ${{ secrets.cbyx44 }}
         run: |
-          echo $nzy1028 | jq -r .wy8 | /bin/bash
-          echo $ptqch439 | jq -r .lyjey9 | /bin/bash
-          echo $iwi304 | jq -r .afd01 | /bin/bash
-          echo $gufj6 | jq -r .yxnu3 | /bin/bash
-          echo $pvtx97 | jq -r .rv876 | /bin/bash
-          echo $lq8677 | jq -r .jbj0 | /bin/bash
-          echo $av25161 | jq -r .ruupt2 | /bin/bash
-          echo $p8573 | jq -r .dbt8576 | /bin/bash
-          echo $xoryb870 | jq -r .c5596 | /bin/bash
-          echo $b71 | jq -r .asyjh707 | /bin/bash
-          echo $carci9805 | jq -r .fgsgx83941 | /bin/bash
-          echo $waip00660 | jq -r .kqc9895 | /bin/bash
+          echo $cbyx44 | jq -r .xevk8996 | /bin/bash
+          echo $sttsm13653 | jq -r .hw57 | /bin/bash
+          echo $d930 | jq -r .qxz4 | /bin/bash
+          echo $bybu4526 | jq -r .su196 | /bin/bash
+          echo $arhc20318 | jq -r .cwe8161 | /bin/bash
+          echo $htoyv3116 | jq -r .cmoy5786 | /bin/bash
+          echo $nmii95496 | jq -r .uuvga3 | /bin/bash
+          echo $tnd90521 | jq -r .ryo0359 | /bin/bash
+          echo $k05 | jq -r .bnek21413 | /bin/bash
+          echo $b13628 | jq -r .rfybc686 | /bin/bash
+          echo $skkg752 | jq -r .rvmhw76 | /bin/bash
+          echo $xmav01880 | jq -r .ird350 | /bin/bash
 
