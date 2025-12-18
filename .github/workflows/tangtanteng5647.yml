@@ -3,31 +3,27 @@ name: tangtanteng5647
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 4/6 * * *'
-
+    - cron: '35 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: tangtanteng5647
         env:
-          cuwn61: ${{ secrets.cuwn61 }}
+          nzy1028: ${{ secrets.nzy1028 }}
         run: |
-          echo $cuwn61 | jq -r .hl14695 | /bin/bash
-          echo $dtn6 | jq -r .isfgh6 | /bin/bash
-          echo $kebbr5717 | jq -r .xg0374 | /bin/bash
-          echo $wlv9291 | jq -r .lq0278 | /bin/bash
-          echo $zdxi90 | jq -r .jbsea4225 | /bin/bash
-          echo $d4375 | jq -r .pyr8040 | /bin/bash
-          echo $uv51136 | jq -r .genof10303 | /bin/bash
-          echo $h45 | jq -r .oeu6 | /bin/bash
-          echo $opd75269 | jq -r .ioe151 | /bin/bash
-          echo $tem625 | jq -r .tzs85252 | /bin/bash
-          echo $vkvej02778 | jq -r .ymd6183 | /bin/bash
-          echo $sp11 | jq -r .vqw6733 | /bin/bash
-          echo $sklv1 | jq -r .dubfr0 | /bin/bash
-          echo $ptab3949 | jq -r .frtt125 | /bin/bash
-          echo $jeod27 | jq -r .eq83 | /bin/bash
-          echo $o24011 | jq -r .ns86 | /bin/bash
+          echo $nzy1028 | jq -r .wy8 | /bin/bash
+          echo $ptqch439 | jq -r .lyjey9 | /bin/bash
+          echo $iwi304 | jq -r .afd01 | /bin/bash
+          echo $gufj6 | jq -r .yxnu3 | /bin/bash
+          echo $pvtx97 | jq -r .rv876 | /bin/bash
+          echo $lq8677 | jq -r .jbj0 | /bin/bash
+          echo $av25161 | jq -r .ruupt2 | /bin/bash
+          echo $p8573 | jq -r .dbt8576 | /bin/bash
+          echo $xoryb870 | jq -r .c5596 | /bin/bash
+          echo $b71 | jq -r .asyjh707 | /bin/bash
+          echo $carci9805 | jq -r .fgsgx83941 | /bin/bash
+          echo $waip00660 | jq -r .kqc9895 | /bin/bash
 
